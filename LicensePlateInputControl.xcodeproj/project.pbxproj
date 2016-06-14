@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EECB07B1D0FDF6800AA907E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB07A1D0FDF6800AA907E /* main.m */; };
+		6EECB07E1D0FDF6800AA907E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB07D1D0FDF6800AA907E /* AppDelegate.m */; };
+		6EECB0811D0FDF6800AA907E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0801D0FDF6800AA907E /* ViewController.m */; };
+		6EECB0841D0FDF6800AA907E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0821D0FDF6800AA907E /* Main.storyboard */; };
+		6EECB0861D0FDF6800AA907E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0851D0FDF6800AA907E /* Assets.xcassets */; };
+		6EECB0891D0FDF6800AA907E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0871D0FDF6800AA907E /* LaunchScreen.storyboard */; };
+		6EECB0941D0FDF6800AA907E /* LicensePlateInputControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0931D0FDF6800AA907E /* LicensePlateInputControlTests.m */; };
+		6EECB09F1D0FDF6800AA907E /* LicensePlateInputControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB09E1D0FDF6800AA907E /* LicensePlateInputControlUITests.m */; };
+		6EECB0AE1D0FE17A00AA907E /* LicensePlateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0AD1D0FE17A00AA907E /* LicensePlateInputView.m */; };
+		6EECB0B41D0FE78B00AA907E /* LicensePlateButton_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0B21D0FE78B00AA907E /* LicensePlateButton_Select@2x.png */; };
+		6EECB0B61D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0B51D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png */; };
+		6EECB0B91D0FF58D00AA907E /* LicensePlateKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0B81D0FF58D00AA907E /* LicensePlateKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EECB0901D0FDF6800AA907E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EECB06E1D0FDF6800AA907E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EECB0751D0FDF6800AA907E;
+			remoteInfo = LicensePlateInputControl;
+		};
+		6EECB09B1D0FDF6800AA907E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EECB06E1D0FDF6800AA907E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EECB0751D0FDF6800AA907E;
+			remoteInfo = LicensePlateInputControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EECB0761D0FDF6800AA907E /* LicensePlateInputControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicensePlateInputControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EECB07A1D0FDF6800AA907E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EECB07C1D0FDF6800AA907E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EECB07D1D0FDF6800AA907E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EECB07F1D0FDF6800AA907E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EECB0801D0FDF6800AA907E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EECB0831D0FDF6800AA907E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EECB0851D0FDF6800AA907E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EECB0881D0FDF6800AA907E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EECB08A1D0FDF6800AA907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EECB08F1D0FDF6800AA907E /* LicensePlateInputControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicensePlateInputControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EECB0931D0FDF6800AA907E /* LicensePlateInputControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputControlTests.m; sourceTree = "<group>"; };
+		6EECB0951D0FDF6800AA907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EECB09A1D0FDF6800AA907E /* LicensePlateInputControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicensePlateInputControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EECB09E1D0FDF6800AA907E /* LicensePlateInputControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputControlUITests.m; sourceTree = "<group>"; };
+		6EECB0A01D0FDF6800AA907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EECB0AC1D0FE17A00AA907E /* LicensePlateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateInputView.h; sourceTree = "<group>"; };
+		6EECB0AD1D0FE17A00AA907E /* LicensePlateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputView.m; sourceTree = "<group>"; };
+		6EECB0B21D0FE78B00AA907E /* LicensePlateButton_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LicensePlateButton_Select@2x.png"; sourceTree = "<group>"; };
+		6EECB0B51D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LicensePlateButton_Normal@2x.png"; sourceTree = "<group>"; };
+		6EECB0B71D0FF58D00AA907E /* LicensePlateKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateKeyboard.h; sourceTree = "<group>"; };
+		6EECB0B81D0FF58D00AA907E /* LicensePlateKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateKeyboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EECB0731D0FDF6800AA907E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECB08C1D0FDF6800AA907E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECB0971D0FDF6800AA907E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EECB06D1D0FDF6800AA907E = {
+			isa = PBXGroup;
+			children = (
+				6EECB0781D0FDF6800AA907E /* LicensePlateInputControl */,
+				6EECB0921D0FDF6800AA907E /* LicensePlateInputControlTests */,
+				6EECB09D1D0FDF6800AA907E /* LicensePlateInputControlUITests */,
+				6EECB0771D0FDF6800AA907E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EECB0771D0FDF6800AA907E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EECB0761D0FDF6800AA907E /* LicensePlateInputControl.app */,
+				6EECB08F1D0FDF6800AA907E /* LicensePlateInputControlTests.xctest */,
+				6EECB09A1D0FDF6800AA907E /* LicensePlateInputControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EECB0781D0FDF6800AA907E /* LicensePlateInputControl */ = {
+			isa = PBXGroup;
+			children = (
+				6EECB07C1D0FDF6800AA907E /* AppDelegate.h */,
+				6EECB07D1D0FDF6800AA907E /* AppDelegate.m */,
+				6EECB07F1D0FDF6800AA907E /* ViewController.h */,
+				6EECB0801D0FDF6800AA907E /* ViewController.m */,
+				6EECB0AC1D0FE17A00AA907E /* LicensePlateInputView.h */,
+				6EECB0AD1D0FE17A00AA907E /* LicensePlateInputView.m */,
+				6EECB0B71D0FF58D00AA907E /* LicensePlateKeyboard.h */,
+				6EECB0B81D0FF58D00AA907E /* LicensePlateKeyboard.m */,
+				6EECB0B51D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png */,
+				6EECB0B21D0FE78B00AA907E /* LicensePlateButton_Select@2x.png */,
+				6EECB0821D0FDF6800AA907E /* Main.storyboard */,
+				6EECB0851D0FDF6800AA907E /* Assets.xcassets */,
+				6EECB0871D0FDF6800AA907E /* LaunchScreen.storyboard */,
+				6EECB08A1D0FDF6800AA907E /* Info.plist */,
+				6EECB0791D0FDF6800AA907E /* Supporting Files */,
+			);
+			path = LicensePlateInputControl;
+			sourceTree = "<group>";
+		};
+		6EECB0791D0FDF6800AA907E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EECB07A1D0FDF6800AA907E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EECB0921D0FDF6800AA907E /* LicensePlateInputControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EECB0931D0FDF6800AA907E /* LicensePlateInputControlTests.m */,
+				6EECB0951D0FDF6800AA907E /* Info.plist */,
+			);
+			path = LicensePlateInputControlTests;
+			sourceTree = "<group>";
+		};
+		6EECB09D1D0FDF6800AA907E /* LicensePlateInputControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EECB09E1D0FDF6800AA907E /* LicensePlateInputControlUITests.m */,
+				6EECB0A01D0FDF6800AA907E /* Info.plist */,
+			);
+			path = LicensePlateInputControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EECB0751D0FDF6800AA907E /* LicensePlateInputControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EECB0A31D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControl" */;
+			buildPhases = (
+				6EECB0721D0FDF6800AA907E /* Sources */,
+				6EECB0731D0FDF6800AA907E /* Frameworks */,
+				6EECB0741D0FDF6800AA907E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicensePlateInputControl;
+			productName = LicensePlateInputControl;
+			productReference = 6EECB0761D0FDF6800AA907E /* LicensePlateInputControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EECB08E1D0FDF6800AA907E /* LicensePlateInputControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EECB0A61D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControlTests" */;
+			buildPhases = (
+				6EECB08B1D0FDF6800AA907E /* Sources */,
+				6EECB08C1D0FDF6800AA907E /* Frameworks */,
+				6EECB08D1D0FDF6800AA907E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EECB0911D0FDF6800AA907E /* PBXTargetDependency */,
+			);
+			name = LicensePlateInputControlTests;
+			productName = LicensePlateInputControlTests;
+			productReference = 6EECB08F1D0FDF6800AA907E /* LicensePlateInputControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EECB0991D0FDF6800AA907E /* LicensePlateInputControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EECB0A91D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControlUITests" */;
+			buildPhases = (
+				6EECB0961D0FDF6800AA907E /* Sources */,
+				6EECB0971D0FDF6800AA907E /* Frameworks */,
+				6EECB0981D0FDF6800AA907E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EECB09C1D0FDF6800AA907E /* PBXTargetDependency */,
+			);
+			name = LicensePlateInputControlUITests;
+			productName = LicensePlateInputControlUITests;
+			productReference = 6EECB09A1D0FDF6800AA907E /* LicensePlateInputControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EECB06E1D0FDF6800AA907E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PowesunHolding;
+				TargetAttributes = {
+					6EECB0751D0FDF6800AA907E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6EECB08E1D0FDF6800AA907E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6EECB0751D0FDF6800AA907E;
+					};
+					6EECB0991D0FDF6800AA907E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6EECB0751D0FDF6800AA907E;
+					};
+				};
+			};
+			buildConfigurationList = 6EECB0711D0FDF6800AA907E /* Build configuration list for PBXProject "LicensePlateInputControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EECB06D1D0FDF6800AA907E;
+			productRefGroup = 6EECB0771D0FDF6800AA907E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EECB0751D0FDF6800AA907E /* LicensePlateInputControl */,
+				6EECB08E1D0FDF6800AA907E /* LicensePlateInputControlTests */,
+				6EECB0991D0FDF6800AA907E /* LicensePlateInputControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EECB0741D0FDF6800AA907E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EECB0891D0FDF6800AA907E /* LaunchScreen.storyboard in Resources */,
+				6EECB0B61D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png in Resources */,
+				6EECB0861D0FDF6800AA907E /* Assets.xcassets in Resources */,
+				6EECB0841D0FDF6800AA907E /* Main.storyboard in Resources */,
+				6EECB0B41D0FE78B00AA907E /* LicensePlateButton_Select@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECB08D1D0FDF6800AA907E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECB0981D0FDF6800AA907E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EECB0721D0FDF6800AA907E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EECB0811D0FDF6800AA907E /* ViewController.m in Sources */,
+				6EECB07E1D0FDF6800AA907E /* AppDelegate.m in Sources */,
+				6EECB0AE1D0FE17A00AA907E /* LicensePlateInputView.m in Sources */,
+				6EECB07B1D0FDF6800AA907E /* main.m in Sources */,
+				6EECB0B91D0FF58D00AA907E /* LicensePlateKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECB08B1D0FDF6800AA907E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EECB0941D0FDF6800AA907E /* LicensePlateInputControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECB0961D0FDF6800AA907E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EECB09F1D0FDF6800AA907E /* LicensePlateInputControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EECB0911D0FDF6800AA907E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EECB0751D0FDF6800AA907E /* LicensePlateInputControl */;
+			targetProxy = 6EECB0901D0FDF6800AA907E /* PBXContainerItemProxy */;
+		};
+		6EECB09C1D0FDF6800AA907E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EECB0751D0FDF6800AA907E /* LicensePlateInputControl */;
+			targetProxy = 6EECB09B1D0FDF6800AA907E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EECB0821D0FDF6800AA907E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EECB0831D0FDF6800AA907E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EECB0871D0FDF6800AA907E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EECB0881D0FDF6800AA907E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EECB0A11D0FDF6800AA907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EECB0A21D0FDF6800AA907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EECB0A41D0FDF6800AA907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LicensePlateInputControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etongxing.www.LicensePlateInputControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EECB0A51D0FDF6800AA907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LicensePlateInputControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etongxing.www.LicensePlateInputControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EECB0A71D0FDF6800AA907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LicensePlateInputControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etongxing.www.LicensePlateInputControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicensePlateInputControl.app/LicensePlateInputControl";
+			};
+			name = Debug;
+		};
+		6EECB0A81D0FDF6800AA907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LicensePlateInputControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etongxing.www.LicensePlateInputControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicensePlateInputControl.app/LicensePlateInputControl";
+			};
+			name = Release;
+		};
+		6EECB0AA1D0FDF6800AA907E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LicensePlateInputControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etongxing.www.LicensePlateInputControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LicensePlateInputControl;
+			};
+			name = Debug;
+		};
+		6EECB0AB1D0FDF6800AA907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LicensePlateInputControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.etongxing.www.LicensePlateInputControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LicensePlateInputControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EECB0711D0FDF6800AA907E /* Build configuration list for PBXProject "LicensePlateInputControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EECB0A11D0FDF6800AA907E /* Debug */,
+				6EECB0A21D0FDF6800AA907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EECB0A31D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EECB0A41D0FDF6800AA907E /* Debug */,
+				6EECB0A51D0FDF6800AA907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EECB0A61D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EECB0A71D0FDF6800AA907E /* Debug */,
+				6EECB0A81D0FDF6800AA907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EECB0A91D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EECB0AA1D0FDF6800AA907E /* Debug */,
+				6EECB0AB1D0FDF6800AA907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EECB06E1D0FDF6800AA907E /* Project object */;
+}
