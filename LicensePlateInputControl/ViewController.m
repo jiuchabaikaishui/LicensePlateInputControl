@@ -19,7 +19,9 @@
     [super viewDidLoad];
     
     LicensePlateInputView *view = [[LicensePlateInputView alloc] init];
-    view.frame = CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 44);
+    CGFloat screenWith = [UIScreen mainScreen].bounds.size.width;
+    CGFloat H = screenWith/7;
+    view.frame = CGRectMake(0, 64 + H + 8, screenWith, H);
     [self.view addSubview:view];
 }
 

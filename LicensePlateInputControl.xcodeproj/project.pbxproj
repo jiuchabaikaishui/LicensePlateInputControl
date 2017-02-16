@@ -15,10 +15,10 @@
 		6EECB0891D0FDF6800AA907E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0871D0FDF6800AA907E /* LaunchScreen.storyboard */; };
 		6EECB0941D0FDF6800AA907E /* LicensePlateInputControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0931D0FDF6800AA907E /* LicensePlateInputControlTests.m */; };
 		6EECB09F1D0FDF6800AA907E /* LicensePlateInputControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB09E1D0FDF6800AA907E /* LicensePlateInputControlUITests.m */; };
-		6EECB0AE1D0FE17A00AA907E /* LicensePlateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0AD1D0FE17A00AA907E /* LicensePlateInputView.m */; };
-		6EECB0B41D0FE78B00AA907E /* LicensePlateButton_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0B21D0FE78B00AA907E /* LicensePlateButton_Select@2x.png */; };
-		6EECB0B61D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EECB0B51D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png */; };
-		6EECB0B91D0FF58D00AA907E /* LicensePlateKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EECB0B81D0FF58D00AA907E /* LicensePlateKeyboard.m */; };
+		6EF3A95B1E55A50E00D24F9E /* LicensePlateButton_Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3A9551E55A50E00D24F9E /* LicensePlateButton_Normal@2x.png */; };
+		6EF3A95C1E55A50E00D24F9E /* LicensePlateButton_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3A9561E55A50E00D24F9E /* LicensePlateButton_Select@2x.png */; };
+		6EF3A95D1E55A50E00D24F9E /* LicensePlateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3A9581E55A50E00D24F9E /* LicensePlateInputView.m */; };
+		6EF3A95E1E55A50E00D24F9E /* LicensePlateKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3A95A1E55A50E00D24F9E /* LicensePlateKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,12 @@
 		6EECB09A1D0FDF6800AA907E /* LicensePlateInputControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicensePlateInputControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EECB09E1D0FDF6800AA907E /* LicensePlateInputControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputControlUITests.m; sourceTree = "<group>"; };
 		6EECB0A01D0FDF6800AA907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EECB0AC1D0FE17A00AA907E /* LicensePlateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateInputView.h; sourceTree = "<group>"; };
-		6EECB0AD1D0FE17A00AA907E /* LicensePlateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputView.m; sourceTree = "<group>"; };
-		6EECB0B21D0FE78B00AA907E /* LicensePlateButton_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LicensePlateButton_Select@2x.png"; sourceTree = "<group>"; };
-		6EECB0B51D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LicensePlateButton_Normal@2x.png"; sourceTree = "<group>"; };
-		6EECB0B71D0FF58D00AA907E /* LicensePlateKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateKeyboard.h; sourceTree = "<group>"; };
-		6EECB0B81D0FF58D00AA907E /* LicensePlateKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateKeyboard.m; sourceTree = "<group>"; };
+		6EF3A9551E55A50E00D24F9E /* LicensePlateButton_Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LicensePlateButton_Normal@2x.png"; sourceTree = "<group>"; };
+		6EF3A9561E55A50E00D24F9E /* LicensePlateButton_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LicensePlateButton_Select@2x.png"; sourceTree = "<group>"; };
+		6EF3A9571E55A50E00D24F9E /* LicensePlateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateInputView.h; sourceTree = "<group>"; };
+		6EF3A9581E55A50E00D24F9E /* LicensePlateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateInputView.m; sourceTree = "<group>"; };
+		6EF3A9591E55A50E00D24F9E /* LicensePlateKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateKeyboard.h; sourceTree = "<group>"; };
+		6EF3A95A1E55A50E00D24F9E /* LicensePlateKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateKeyboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +115,12 @@
 				6EECB07D1D0FDF6800AA907E /* AppDelegate.m */,
 				6EECB07F1D0FDF6800AA907E /* ViewController.h */,
 				6EECB0801D0FDF6800AA907E /* ViewController.m */,
-				6EECB0AC1D0FE17A00AA907E /* LicensePlateInputView.h */,
-				6EECB0AD1D0FE17A00AA907E /* LicensePlateInputView.m */,
-				6EECB0B71D0FF58D00AA907E /* LicensePlateKeyboard.h */,
-				6EECB0B81D0FF58D00AA907E /* LicensePlateKeyboard.m */,
-				6EECB0B51D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png */,
-				6EECB0B21D0FE78B00AA907E /* LicensePlateButton_Select@2x.png */,
+				6EF3A9551E55A50E00D24F9E /* LicensePlateButton_Normal@2x.png */,
+				6EF3A9561E55A50E00D24F9E /* LicensePlateButton_Select@2x.png */,
+				6EF3A9571E55A50E00D24F9E /* LicensePlateInputView.h */,
+				6EF3A9581E55A50E00D24F9E /* LicensePlateInputView.m */,
+				6EF3A9591E55A50E00D24F9E /* LicensePlateKeyboard.h */,
+				6EF3A95A1E55A50E00D24F9E /* LicensePlateKeyboard.m */,
 				6EECB0821D0FDF6800AA907E /* Main.storyboard */,
 				6EECB0851D0FDF6800AA907E /* Assets.xcassets */,
 				6EECB0871D0FDF6800AA907E /* LaunchScreen.storyboard */,
@@ -259,11 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF3A95B1E55A50E00D24F9E /* LicensePlateButton_Normal@2x.png in Resources */,
 				6EECB0891D0FDF6800AA907E /* LaunchScreen.storyboard in Resources */,
-				6EECB0B61D0FE84F00AA907E /* LicensePlateButton_Normal@2x.png in Resources */,
 				6EECB0861D0FDF6800AA907E /* Assets.xcassets in Resources */,
+				6EF3A95C1E55A50E00D24F9E /* LicensePlateButton_Select@2x.png in Resources */,
 				6EECB0841D0FDF6800AA907E /* Main.storyboard in Resources */,
-				6EECB0B41D0FE78B00AA907E /* LicensePlateButton_Select@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +290,9 @@
 			files = (
 				6EECB0811D0FDF6800AA907E /* ViewController.m in Sources */,
 				6EECB07E1D0FDF6800AA907E /* AppDelegate.m in Sources */,
-				6EECB0AE1D0FE17A00AA907E /* LicensePlateInputView.m in Sources */,
+				6EF3A95D1E55A50E00D24F9E /* LicensePlateInputView.m in Sources */,
 				6EECB07B1D0FDF6800AA907E /* main.m in Sources */,
-				6EECB0B91D0FF58D00AA907E /* LicensePlateKeyboard.m in Sources */,
+				6EF3A95E1E55A50E00D24F9E /* LicensePlateKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +518,7 @@
 				6EECB0A51D0FDF6800AA907E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EECB0A61D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControlTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				6EECB0A81D0FDF6800AA907E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EECB0A91D0FDF6800AA907E /* Build configuration list for PBXNativeTarget "LicensePlateInputControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				6EECB0AB1D0FDF6800AA907E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
